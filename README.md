@@ -1,9 +1,12 @@
 # JDivertTunnel
-JDivertTunnel是一个简单的windows流量重定向到socks5服务器的工具，支持win7及后续系统，基于windivert及Jdivrt开发<br>
+<br>JDivertTunnel是一个简单的windows流量重定向到socks5服务器的工具，支持win7及后续系统，基于windivert及Jdivrt开发</br>
 This is a simple tunnel to realize tcp/udp stream to socks5 on windows.Support windows7 and later,base from WinDivert and Jdivert.<br>
 
 目前是一个测试版本，你可以在dev分支查看相关源码<br>
 This is just a test version,you can see it at the dev branch.<br>
+
+注意！必须用admin模式运行此程序
+Tip!This project must run on admin mode
 
 首先，配置你的socks5服务器地址<br>
 First,config your socks5server:<br>
