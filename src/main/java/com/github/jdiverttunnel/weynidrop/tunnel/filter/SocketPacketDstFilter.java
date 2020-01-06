@@ -59,6 +59,7 @@ public class SocketPacketDstFilter implements WinDivertFilter {
             //缓存dns记录
             ips.forEach(ip->DnsCache.put(ip,socketAddress.getHostString()));
         }else {
+            ips = new HashSet<>();
             ips.add(socketAddress.getHostString());
         }
         this.port = socketAddress.getPort();
